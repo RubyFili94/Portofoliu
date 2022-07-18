@@ -1,0 +1,367 @@
+.all {
+	background-color: #edeae9;
+}
+
+/* navigation bar */
+/* The side navigation menu */
+
+.btn {
+	margin-left: 40px;
+	margin-top: 25px;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+.sidenav {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: rgb(5, 5, 5); /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+	transition: margin-left 0.5s;
+	padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+/* home */
+
+.name {
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-family: "Poppins", sans-serif;
+}
+
+.profile-picture {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 12px 0 #78b8dd, 24px 0 #aed6e9, 36px 0 #d0eef1;
+	box-sizing: border-box;
+}
+
+.profile-text {
+	padding-top: 40px;
+	font-size: 20px;
+	text-align: left;
+	letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+}
+
+.links-buttons {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 30px;
+}
+
+.flex-container {
+	display: flex;
+}
+
+/* skills */
+
+.check-out {
+	font-size: 15px;
+}
+
+/* buttons1*/
+
+.linkedin-button {
+	width: 34px;
+}
+
+.facebook {
+	width: 34px;
+}
+
+.github {
+	width: 34px;
+}
+
+/* About me */
+
+.about-me {
+	font-family: "Poppins", sans-serif;
+	width: 70%;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 150px;
+}
+
+.subtitlu {
+	letter-spacing: 1px;
+}
+
+.text-aboutme {
+	background-color: #ffffff;
+	padding: 35px;
+	border-radius: 50px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/* skills */
+
+.skills {
+	padding-top: 80px;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-bottom: 150px;
+}
+
+.buttons {
+	width: 120%;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	padding: 35px;
+	border-radius: 50px;
+}
+
+/* buttons2 */
+.html-button {
+	width: 60px;
+}
+
+.css-button {
+	width: 60px;
+}
+
+.js-button {
+	width: 60px;
+}
+
+.jquery-button {
+	width: 60px;
+}
+
+.react-button {
+	width: 60px;
+}
+
+.photoshop-button {
+	width: 60px;
+}
+
+.illustrator-button {
+	width: 60px;
+}
+
+.indesign-button {
+	width: 60px;
+}
+
+.premiere-button {
+	width: 60px;
+}
+
+.github-button {
+	width: 60px;
+}
+
+/* spaces buttons */
+
+.space1 {
+	width: 70px;
+	height: auto;
+	display: inline-block;
+}
+
+/* projects */
+
+.title-prj1 {
+	margin: auto;
+	width: 77%;
+	padding: 20px;
+	padding-bottom: 40px;
+}
+
+.prj1 {
+	background-color: #fffefe;
+	border-radius: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 1px;
+	border-color: #e2d9d9;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.picture-pr1 {
+	width: 450px;
+	padding: 10px;
+	border-radius: 40px;
+}
+
+.poster-text {
+	font-size: 15px;
+	padding: 10px;
+}
+
+.work-links {
+	margin-top: 50px;
+}
+
+.live-link {
+	font-size: 1rem;
+	margin-right: 20px;
+	color: DodgerBlue;
+	font-weight: bold;
+}
+
+.repo-link {
+	font-size: 1rem;
+	margin-right: 20px;
+	color: DodgerBlue;
+	font-weight: bold;
+}
+
+/* contact */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+	background-color: #04aa6d;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 50px;
+	background-color: #fdfdfd;
+}
+
+.check-out {
+	font-size: 12px;
+	margin-top: 100px;
+}
+
+.row {
+	padding-top: 25px;
+}
+
+/* Email/calendar */
+
+.email-icons {
+	width: 35px;
+	margin: 20px;
+}
+
+.calendar-icons {
+	width: 35px;
+	margin: 20px;
+}
+
+.email {
+	text-align: center;
+	border-radius: 30px;
+}
+
+.calendar {
+	text-align: center;
+	border-radius: 30px;
+}
+
+.r-icon {
+	width: 15px;
+}
+
+.last-line {
+	text-align: center;
+	padding: 15px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #fcfdfd;
+	padding: 10px;
+	border-radius: 30px;
+}
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(219, 209, 209, 0.932);
+	border-radius: 30px;
+	padding: 15px;
+	margin: 25px;
+	font-size: 30px;
+	text-align: center;
+}
